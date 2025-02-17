@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marialise's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Marialise's<br>Portfolio
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#other-interests">Other Interests</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Marialise's<br>Portfolio
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#interests" onclick="toggleMenu()">Interests</a></li>
+          <li><a href="#other-interests" onclick="toggleMenu()">Other Interests</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.jpg
+        " alt="Marialise profile picture" class="profile_pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Marialise Novita</h1>
+        <p class="section__text__p2">An undergraduate IT student</p>        
+      </div>
+      <div class="contact">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/phone.png"
+              alt="Phone icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>+6285364095557</p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:mariaaritonang19@gmail.com">mariaaritonang19@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/location.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="https://g.co/kgs/5zZEToQ">Medan, Sumatera Utara</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      
+      <div class="section-container">
+        <p>
+          A highly motivated Information Technology
+           undergraduate student eager to develop programming
+           and web development skills. Passionate about
+           continuous learning and problem-solving, with a strong
+           desire to contribute to meaningful projects. Seeking
+           opportunities to enhance technical expertise and gain
+           practical experience in the tech industry.
+      </p><br><br>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/achieve.png"
+                alt="Achievement icon"
+                class="icon"
+              />
+              <h3>Achievement</h3>
+              <p>Finalist OSN 2022 & 2023 in Informatics Category <br />Provinsi Sumatera Utara</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <ul >SMP RK BINTANG TIMUR RANTAUPRAPAT</ul>
+              GPA: 95.3
+              <p>2018 - 2021</p><br>
+              <ul >SMAN 2 RANTAU UTARA</ul>
+              GPA: 95
+              <p>2021 - 2024</p><br>
+              <ul >UNIVERSITAS SUMATERA UTARA</ul>
+              Information Technology Department
+              <p>2024 - now</p>
+              </div>
+              <div class="details-container">
+                <img
+                    src="./assets/language.png"
+                    alt="Language icon"
+                    class="icon"
+                  />
+                  <h3>Language</h3>
+                  <li>Indonesian (Native)</li>
+                  <li>English (Intermediate)</li>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <p class="section__text__p1">On Progress</p>
+      <div class="experience-details-container">
+       
+          <div class="details-container">
+            
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Development</h3>
+                  <p>HTML, CSS, JavaScript, PHP</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Programming & Problem-Solving</h3>
+                  <p>C, C++, Algoritms</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Research & Analytical Thinking</h3>
+                </div>
+              </article>
+          
+          </div>
+    </section>
+    
+    <section id="interests">
+      <h1 class="title">My Interests</h1>
+      <div class="interests-upper-container">
+        <div class="interests-container">
+          <img
+            src="./assets/interest.png"
+            alt="Interest icon"
+            class="icon interests-icon"
+          />
+          <p>Software Development</p>
+        </div>
+        <div class="interests-container">
+          <img
+            src="./assets/interest.png"
+            alt="Interest icon"
+            class="icon interests-icon"
+          />
+          <p>Digital Marketing</p>
+        </div>
+        <div class="interests-container">
+          <img
+            src="./assets/interest.png"
+            alt="Interest icon"
+            class="icon interests-icon"
+          />
+          <p>SEO / SEM</p>
+        </div>
+        <div class="interests-container">
+          <img
+            src="./assets/interest.png"
+            alt="Interest icon"
+            class="icon interests-icon"
+          />
+          <p>Data Science / Data Analytics</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="other-interests">
+      <h1 class="title">Other Interests</h1>
+      <div class="interests-upper-container">
+        <div class="interests-container">
+          <img
+            src="./assets/film.png"
+            alt="Film icon"
+            class="icon interests-icon"
+          />
+          <p>Film</p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/music.png"
+            alt="Music icon"
+            class="icon interests-icon"
+          />
+          <p>Music</p>
+        </div>
+        <div class="interests-container">
+          <img
+            src="./assets/novel.png"
+            alt="Novel icon"
+            class="icon interests-icon"
+          />
+          <p>Novel</p>
+        </div>
+        <div class="interests-container">
+          <img
+            src="./assets/poetry.png"
+            alt="Poetry icon"
+            class="icon interests-icon"
+          />
+          <p>Poetry</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+<br><br><br><hr><br>
+    <footer>
+      <p>&copy; 2025 Marialise. All rights reserved.</p>
+      <p>Some content is inspired by various tutorials. Credits to respective authors.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
